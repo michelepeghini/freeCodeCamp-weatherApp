@@ -1,0 +1,1 @@
+var openWeatherAPIKey = 'bc8075b16096586329e2fd066f139b0f';

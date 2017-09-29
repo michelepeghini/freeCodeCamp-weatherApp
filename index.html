@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>freeCodeCamp: </title>	<!-- TITLE -->
+	<title>freeCodeCamp: Weather App</title>	<!-- TITLE -->
   	<meta name="author" content="Michele Peghini">
 	<meta name="description" content=""> <!-- DESCRIPTION -->
 	<meta name="keywords" content="HTML5,CSS3,JSON,JavaScript,jQuery,Bootstrap,freeCodeCamp,weatherApp"> <!-- TAGS, CSV -->
@@ -19,74 +19,72 @@
 
 <body>
 
-  <h1 id="top_header" class="text-center">freeCodeCamp - Show local weather</h1>
+  <h1 id="top_header" class="text-center">freeCodeCamp: Weather App</h1>
 
   <div class="jumbotron text-center">
-      <div id="temp" class="panel panel-default text-center">
+    <div id="temp" class="panel panel-default text-center">
 
-        <div class="panel-heading">
-          <h2 id="location"></h2>
+      <div class="panel-heading">
+        <h2 id="location"></h2>
+      </div>
+
+      <div class="panel-body">
+        <div id="main_temp">
+          <span id="currT" class="big_text"></span>
+          <div class="temp_box">
+            <span id="maxT" class="red"></span>
+            <span id="minT" class="blue"></span>  
+          </div>
+          <span class="big_text left_pad"> &deg;</span>
+          <span id="switchTemp" class="temp_scale big_text" role="button">C</span>  
+
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <img id="mainI" src="" class="img" title="" alt="">
+          </div>
+          <div class="col-xs-12">
+            <span>Today in </span><b id="place"></b><span> there will be </span><b id="descrW"></b>
+          </div>
+
+          </div>
         </div>
 
-        <div class="panel-body">
-          <div id="main_temp">
-            <span id="currT" class="big_text"></span>
-            <div class="temp_box">
-              <span id="maxT" class="red"></span>
-              <span id="minT" class="blue"></span>  
-            </div>
-            <span class="big_text left_pad"> &deg;</span>
-            <span id="switchTemp" class="temp_scale big_text" role="button">C</span>  
-
+      <div class="panel-footer text-center">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3">
+            <i class="wi wi-cloudy"> : </i><span id="clouds"></span><span> %</span>
           </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <img id="mainI" src="" class="img" title="" alt="">
-            </div>
-            <div class="col-xs-12">
-              <span>Today in </span><b id="place"></b><span> there will be </span><b id="descrW"></b>
-            </div>
-
-            </div>
+          <div class="col-xs-12 col-sm-3">
+            <i class="wi wi-strong-wind"> : </i><span id="wind"></span><span> m/s</span>
           </div>
-
-        <div class="panel-footer text-center">
-          <div class="row">
-            <div class="col-xs-12 col-sm-3">
-              <i class="wi wi-cloudy"> : </i><span id="clouds"></span><span> %</span>
-            </div>
-            <div class="col-xs-12 col-sm-3">
-              <i class="wi wi-strong-wind"> : </i><span id="wind"></span><span> m/s</span>
-            </div>
-            <div class="col-xs-12 col-sm-3">
-              <i class="wi wi-humidity"> : </i><span id="hum"></span><span> %</span>
-            </div>
-            <div class="col-xs-12 col-sm-3">
-              <i class="wi wi-barometer"> : </i><span id="press"></span><span> hPa</span>
-            </div>
+          <div class="col-xs-12 col-sm-3">
+            <i class="wi wi-humidity"> : </i><span id="hum"></span><span> %</span>
           </div>
-        </div>  
-      </div> 
-</div>
+          <div class="col-xs-12 col-sm-3">
+            <i class="wi wi-barometer"> : </i><span id="press"></span><span> hPa</span>
+          </div>
+        </div>
+      </div>  
+    </div> 
+  </div>
 
   <footer id="credits" class="text-center">
-      <h3>Credits:</h3>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <a href="https://openweathermap.org/" title="Weather Data Map" target="_blank">Open Weather API</a>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <a href="https://erikflowers.github.io/weather-icons/" title="Erik Flowers" target="_blank">Weather Icons</a>
-        </div>
+    <h3>Credits:</h3>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <a href="https://openweathermap.org/" title="Weather Data Map" target="_blank">Open Weather API</a>
       </div>
-      <div id="author" class="row">
-        <h3>Author: Michele Peghini</h3> 
-        <p class="col-xs-4"><a href="https://codepen.io/michele_peghini/pens/public/" target="_blank">CodePen</a></p>
-        <p class="col-xs-4"><a href="https://github.com/michelepeghini" target="_blank">GitHub</a></p>
-        <p class="col-xs-4"><a href="https://www.freecodecamp.org/michelepeghini" target="_blank">freeCodeCamp</a></p>
+      <div class="col-xs-12 col-sm-6">
+        <a href="https://erikflowers.github.io/weather-icons/" title="Erik Flowers" target="_blank">Weather Icons</a>
       </div>
-</footer>
-    
+    </div>
+    <div class="row">
+      <h2>Author: Michele Peghini</h2> 
+      <p class="col-xs-4"><a href="https://codepen.io/michele_peghini/pens/public/" target="_blank">CodePen</a></p>
+      <p class="col-xs-4"><a href="https://github.com/michelepeghini" target="_blank">GitHub</a></p>
+      <p class="col-xs-4"><a href="https://www.freecodecamp.org/michelepeghini" target="_blank">freeCodeCamp</a></p>
+    </div>
+  </footer>  
 </body>
 </html>
- 
