@@ -1,12 +1,9 @@
 //stores Open Weather API data and endpoints
-$.getScript('/openWeatherKey.js', function() {
-  var OW = {
-  apiKey: openWeatherAPIKey, // loade from openWeatherKey.js
+var OW = {
+  apiKey: openWeatherAPIKey, // loaded from openWeatherKey.js
   apiLocationBase: ' https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather',
   apiIconBase: 'http://openweathermap.org/img/w/'
 }
-  
-});
 
 var tempScale = 'C'; //used to determine current temperature scale, switches between C and F
 var weather; //stores API data
