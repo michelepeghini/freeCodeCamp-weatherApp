@@ -1,0 +1,78 @@
+#top_header {
+  color:#ffffff;
+  background-color: #006400;
+  margin: 0 auto;
+  padding: 20px 0 30px 0;
+}
+.left_pad {
+  padding-left: 30px;
+}
+
+.jumbotron {
+  min-width: 368px;
+}
+
+#temp {
+  padding: 0;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#switchTemp {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 5px;
+  background-color: rgb(245, 245, 245);
+  padding: 0 5px;
+}
+
+.big_text {
+  font-size: 250%;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+#main_temp {
+  position: relative;
+}
+
+.temp_box {
+  display: inline-grid;
+  position: absolute;
+  top: 5px;
+}
+
+.temp_box span {
+  display: inline;
+  width: 20px;
+}
+
+.wi {
+  font-size: 150%;
+  margin: 5px 0;
+}
+
+footer a {
+  padding: 5px 0;
+}
+
+#credits {
+  border: 2px solid #006400;
+  box-shadow: 5px 5px 10px 006400;
+  width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 15px;
+  color: #006400;
+}
+
+#author p {
+  display: inline;
+  width: 33%;
+}
