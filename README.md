@@ -24,7 +24,7 @@ This is a stand alone single page app, all external libraries needed are either 
 ## Screenshots
 
 ![Weather App Celsius](/weather-app-celsius.png "Weather App Celsius")
-![Weather App Fahrenheit](/weather-app-celsius.png "Weather App Fahrenheit")
+![Weather App Fahrenheit](/weather-app-fahrenheit.png "Weather App Fahrenheit")
 
 ## APIs / Libraries used
 
