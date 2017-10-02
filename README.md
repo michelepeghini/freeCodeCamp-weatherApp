@@ -8,7 +8,7 @@ This is a stand alone single page app, all external libraries needed are either 
 
 ## Requirements
 
-* Build a CodePen.io app that is functionally similar to [this] (http://codepen.io/FreeCodeCamp/full/bELRjV)
+* Build a CodePen.io app that is functionally similar to [this](http://codepen.io/FreeCodeCamp/full/bELRjV)
 * **User Story:** I can see the weather in my current location
 * **User Story:** I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
 * **User Story:** I can push a button to toggle between Fahrenheit and Celsius.
@@ -34,4 +34,7 @@ This is a stand alone single page app, all external libraries needed are either 
 * Bootstrap 3.3.7 CSS
 
 ## Licence 
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "Creative Commons License")
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
