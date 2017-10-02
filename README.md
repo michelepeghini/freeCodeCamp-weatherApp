@@ -23,7 +23,12 @@ This is a stand alone single page app, all external libraries needed are either 
 
 ## Screenshots
 
+Desktop view, with Celsius degrees and yellow header(temperature between 10 and 20 degrees Celsius)
+
 ![Weather App Celsius](/weather-app-celsius.png "Weather App Celsius")
+
+Mobile view, with Fahrenheit degrees and light blue header(temperature between 32 and 50 degrees Fahrenheit)
+
 ![Weather App Fahrenheit](/weather-app-fahrenheit.png "Weather App Fahrenheit")
 
 ## APIs / Libraries used
