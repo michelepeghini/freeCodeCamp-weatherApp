@@ -1,6 +1,6 @@
 # freeCodeCamp: Random Quote Machine
 
-This is a weather app developed for the freeCodeCamp Front End Certificate
+This is a weather widget developed for the freeCodeCamp Front End Certificate. It uses Opan Weather API to display local weather information.
 
 ## Getting started
 
