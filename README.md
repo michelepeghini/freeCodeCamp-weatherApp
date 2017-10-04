@@ -4,7 +4,15 @@ This is a widget developed for the freeCodeCamp Front End Certificate. It uses O
 
 ## Getting started
 
-This is a stand alone single page app, all external libraries needed are either included as files on the repo or via CDN
+This is a stand alone single page app, all external libraries needed are either included as files on the repo or via CDN with the exception of the **Open WeatherMap API Key**.
+
+### Open WeatherMap API Key
+The `index.html` links to a script called `openWeatherKey.js` which is *gitignored* and should look like this:
+
+```javascript
+var openWeatherAPIKey = 'xxxxxxxxxxxxxxxxxxxxxx';
+```
+You can get a Basic API Key, with max 60 queries per hour and no subscription fees [here](https://openweathermap.org/price)
 
 ## Requirements
 
@@ -15,11 +23,14 @@ This is a stand alone single page app, all external libraries needed are either 
 
 ## Features
 
-* Get Location from browser
-* Get local weather info based on Location through OpenWeatherMapAPI
-* Update info in widget accordingly.
+**Fulfillment of Requirements:**
+* Get Location from browser and queries OpenWeatherMapAPI to get local weather info
 * Update color of header depending on temperature. 5 steps: < 0, from >=0  to <10, from >=10 to <20, from >=20 to <30, >=30
 * "C / F" button switches between Celsius and Fahrenheit degrees
+
+**Extra features:**
+* Shows minimum and maximum temperature aside of current
+* Shows cloud percentage, wind speed, humidity percentage and pressure in panel footer
 
 ## Screenshots
 
