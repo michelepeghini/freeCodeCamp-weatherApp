@@ -1,5 +1,5 @@
 //stores Open Weather API data and endpoints
-var OW = {
+var OpenWeather = {
   apiKey: openWeatherAPIKey, // loaded from openWeatherKey.js
   apiLocationBase: ' https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather',
   apiIconBase: 'http://openweathermap.org/img/w/'
@@ -53,7 +53,7 @@ function displayData(weather){
   $('#place').text(weather.name);
   $('#mainI').attr('title', weather.weather[0].main);
   $('#mainI').attr('alt', weather.weather[0].main);
-  $('#mainI').attr('src', OW.apiIconBase + weather.weather[0].icon + '.png');
+  $('#mainI').attr('src', OpenWeather.apiIconBase + weather.weather[0].icon + '.png');
   $('#descrW').text(weather.weather[0].description);
   $('#clouds').text(weather.clouds.all);
   $('#wind').text(weather.wind.speed);
@@ -91,7 +91,7 @@ $(document).ready(function() {
         lon: Math.round((position.coords.longitude + 0.00001) * 100) / 100
       }
       //build Open Weather API call with coordinates
-      var OWCall = OW.apiLocationBase + '?lat=' + pos.lat + '&lon=' + pos.lon + '&appid=' + OW.apiKey;
+      var OWCall = OpenWeather.apiLocationBase + '?lat=' + pos.lat + '&lon=' + pos.lon + '&appid=' + OpenWeather.apiKey;
       //AJAX cal to Open Weather API
       $.getJSON(OWCall)
         .done(function(data) {
